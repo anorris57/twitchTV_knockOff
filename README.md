@@ -8,7 +8,7 @@ Goal of this app is to learn
 * To master CRUD (Create, Read, Update, Destroy) operations in React/Redux
 * how to do good error handling
 
-Hightlight:
+Highlight:
 * Very clear discussion of the Browserouter/Path. Explain how Path has a contain method that compares the string listed in the path. So Route path="/" and Route path = "/pagetwo" would be evaluted true for Route path = "/pagetwo" because extractedPath  contains the string "/" and "/pagetwo". Also explained the word exact means exact={true} and changes behavior of Route extractedPath === path.
 
 * Use Link tags for navigating to different pages in app. Link tags prevents the browser from fetching a new index.html file (which is the default behavior of a tags). Link tags allow React Router to hid/components on the html page at the new URL without changing the html page. This is where the term SPA (Single Page App) comes from because only one html page is shown.
