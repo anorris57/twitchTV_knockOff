@@ -1,6 +1,6 @@
 import React from 'react';
 //Browser Router and Route  and Link (use instead of a tag)are actual components
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 //react router cares only about characters after domain localhost:3000 extracted 'path'starts with /
 
 const PageOne = () => {
@@ -24,12 +24,12 @@ const PageTwo = () => {
 
 const App = () => {
   return (
-      <BrowserRouter>
+      <HashRouter>
         <div>
         <Route path="/" exact={true} component={PageOne}/>
         <Route path="/pagetwo" component={PageTwo}/>
         </div>
-      </BrowserRouter>
+      </HashRouter>
   )
 }
 
