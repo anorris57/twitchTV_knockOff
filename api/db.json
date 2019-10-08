@@ -19,6 +19,12 @@
       "title": "another  stream",
       "description": "this is a different stream",
       "id": 4
+    },
+    {
+      "title": "Stream Created ",
+      "description": "This stream should be associated with my id from auth",
+      "userId": "114260779501941639743",
+      "id": 5
     }
   ]
 }
