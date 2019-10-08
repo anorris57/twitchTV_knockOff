@@ -25,6 +25,12 @@
       "description": "This stream should be associated with my id from auth",
       "userId": "114260779501941639743",
       "id": 5
+    },
+    {
+      "title": "Unexpected Behavior",
+      "description": "Didn't expect that!",
+      "userId": "114260779501941639743",
+      "id": 6
     }
   ]
 }
