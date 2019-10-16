@@ -27,7 +27,7 @@ class StreamList extends React.Component {
   renderList() {
     return this.props.streams.map( stream => {
       return(
-        <div className="item" key={stream.id}>
+        <div className="item" key={this.props.streams.currentUserId}>
           {this.renderAdmin(stream)}
           <i className="large middle aligned icon camera" />
           <div className="content">

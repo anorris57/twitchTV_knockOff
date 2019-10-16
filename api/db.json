@@ -1,16 +1,6 @@
 {
   "streams": [
     {
-      "title": "my stream",
-      "description": "this is a great stream",
-      "id": 3
-    },
-    {
-      "title": "another  stream",
-      "description": "this is a different stream",
-      "id": 4
-    },
-    {
       "title": "Stream Created ",
       "description": "This stream should be associated with my id from auth",
       "userId": "114260779501941639743",
@@ -24,9 +14,14 @@
     },
     {
       "title": "Programmatic Navigation",
-      "description": "Using manually made history object",
+      "description": "Using manually made history object patch request",
       "userId": "114260779501941639743",
       "id": 7
+    },
+    {
+      "title": "Checking",
+      "description": "Create Stream with Component Reuse Now",
+      "id": 8
     }
   ]
 }
